@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC4AAEDC2AEBC539005DE1F7 /* FirebaseOTPAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEDB2AEBC539005DE1F7 /* FirebaseOTPAuthApp.swift */; };
+		AC4AAEDE2AEBC539005DE1F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEDD2AEBC539005DE1F7 /* ContentView.swift */; };
+		AC4AAEE02AEBC53B005DE1F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4AAEDF2AEBC53B005DE1F7 /* Assets.xcassets */; };
+		AC4AAEE32AEBC53B005DE1F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC4AAEE22AEBC53B005DE1F7 /* Preview Assets.xcassets */; };
+		AC4AAEED2AEBC53B005DE1F7 /* FirebaseOTPAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEEC2AEBC53B005DE1F7 /* FirebaseOTPAuthTests.swift */; };
+		AC4AAEF72AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEF62AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift */; };
+		AC4AAEF92AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEF82AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC4AAEE92AEBC53B005DE1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4AAED02AEBC539005DE1F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4AAED72AEBC539005DE1F7;
+			remoteInfo = FirebaseOTPAuth;
+		};
+		AC4AAEF32AEBC53B005DE1F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC4AAED02AEBC539005DE1F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC4AAED72AEBC539005DE1F7;
+			remoteInfo = FirebaseOTPAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC4AAED82AEBC539005DE1F7 /* FirebaseOTPAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseOTPAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4AAEDB2AEBC539005DE1F7 /* FirebaseOTPAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOTPAuthApp.swift; sourceTree = "<group>"; };
+		AC4AAEDD2AEBC539005DE1F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC4AAEDF2AEBC53B005DE1F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC4AAEE22AEBC53B005DE1F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC4AAEE82AEBC53B005DE1F7 /* FirebaseOTPAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseOTPAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4AAEEC2AEBC53B005DE1F7 /* FirebaseOTPAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOTPAuthTests.swift; sourceTree = "<group>"; };
+		AC4AAEF22AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseOTPAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4AAEF62AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOTPAuthUITests.swift; sourceTree = "<group>"; };
+		AC4AAEF82AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOTPAuthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC4AAED52AEBC539005DE1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AAEE52AEBC53B005DE1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AAEEF2AEBC53B005DE1F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC4AAECF2AEBC539005DE1F7 = {
+			isa = PBXGroup;
+			children = (
+				AC4AAEDA2AEBC539005DE1F7 /* FirebaseOTPAuth */,
+				AC4AAEEB2AEBC53B005DE1F7 /* FirebaseOTPAuthTests */,
+				AC4AAEF52AEBC53B005DE1F7 /* FirebaseOTPAuthUITests */,
+				AC4AAED92AEBC539005DE1F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC4AAED92AEBC539005DE1F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AAED82AEBC539005DE1F7 /* FirebaseOTPAuth.app */,
+				AC4AAEE82AEBC53B005DE1F7 /* FirebaseOTPAuthTests.xctest */,
+				AC4AAEF22AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC4AAEDA2AEBC539005DE1F7 /* FirebaseOTPAuth */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AAEDB2AEBC539005DE1F7 /* FirebaseOTPAuthApp.swift */,
+				AC4AAEDD2AEBC539005DE1F7 /* ContentView.swift */,
+				AC4AAEDF2AEBC53B005DE1F7 /* Assets.xcassets */,
+				AC4AAEE12AEBC53B005DE1F7 /* Preview Content */,
+			);
+			path = FirebaseOTPAuth;
+			sourceTree = "<group>";
+		};
+		AC4AAEE12AEBC53B005DE1F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AAEE22AEBC53B005DE1F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC4AAEEB2AEBC53B005DE1F7 /* FirebaseOTPAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AAEEC2AEBC53B005DE1F7 /* FirebaseOTPAuthTests.swift */,
+			);
+			path = FirebaseOTPAuthTests;
+			sourceTree = "<group>";
+		};
+		AC4AAEF52AEBC53B005DE1F7 /* FirebaseOTPAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AAEF62AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift */,
+				AC4AAEF82AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift */,
+			);
+			path = FirebaseOTPAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC4AAED72AEBC539005DE1F7 /* FirebaseOTPAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4AAEFC2AEBC53B005DE1F7 /* Build configuration list for PBXNativeTarget "FirebaseOTPAuth" */;
+			buildPhases = (
+				AC4AAED42AEBC539005DE1F7 /* Sources */,
+				AC4AAED52AEBC539005DE1F7 /* Frameworks */,
+				AC4AAED62AEBC539005DE1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseOTPAuth;
+			productName = FirebaseOTPAuth;
+			productReference = AC4AAED82AEBC539005DE1F7 /* FirebaseOTPAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC4AAEE72AEBC53B005DE1F7 /* FirebaseOTPAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4AAEFF2AEBC53B005DE1F7 /* Build configuration list for PBXNativeTarget "FirebaseOTPAuthTests" */;
+			buildPhases = (
+				AC4AAEE42AEBC53B005DE1F7 /* Sources */,
+				AC4AAEE52AEBC53B005DE1F7 /* Frameworks */,
+				AC4AAEE62AEBC53B005DE1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4AAEEA2AEBC53B005DE1F7 /* PBXTargetDependency */,
+			);
+			name = FirebaseOTPAuthTests;
+			productName = FirebaseOTPAuthTests;
+			productReference = AC4AAEE82AEBC53B005DE1F7 /* FirebaseOTPAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC4AAEF12AEBC53B005DE1F7 /* FirebaseOTPAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC4AAF022AEBC53B005DE1F7 /* Build configuration list for PBXNativeTarget "FirebaseOTPAuthUITests" */;
+			buildPhases = (
+				AC4AAEEE2AEBC53B005DE1F7 /* Sources */,
+				AC4AAEEF2AEBC53B005DE1F7 /* Frameworks */,
+				AC4AAEF02AEBC53B005DE1F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC4AAEF42AEBC53B005DE1F7 /* PBXTargetDependency */,
+			);
+			name = FirebaseOTPAuthUITests;
+			productName = FirebaseOTPAuthUITests;
+			productReference = AC4AAEF22AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC4AAED02AEBC539005DE1F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AC4AAED72AEBC539005DE1F7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AC4AAEE72AEBC53B005DE1F7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AC4AAED72AEBC539005DE1F7;
+					};
+					AC4AAEF12AEBC53B005DE1F7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AC4AAED72AEBC539005DE1F7;
+					};
+				};
+			};
+			buildConfigurationList = AC4AAED32AEBC539005DE1F7 /* Build configuration list for PBXProject "FirebaseOTPAuth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC4AAECF2AEBC539005DE1F7;
+			productRefGroup = AC4AAED92AEBC539005DE1F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC4AAED72AEBC539005DE1F7 /* FirebaseOTPAuth */,
+				AC4AAEE72AEBC53B005DE1F7 /* FirebaseOTPAuthTests */,
+				AC4AAEF12AEBC53B005DE1F7 /* FirebaseOTPAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC4AAED62AEBC539005DE1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AAEE32AEBC53B005DE1F7 /* Preview Assets.xcassets in Resources */,
+				AC4AAEE02AEBC53B005DE1F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AAEE62AEBC53B005DE1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AAEF02AEBC53B005DE1F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC4AAED42AEBC539005DE1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AAEDE2AEBC539005DE1F7 /* ContentView.swift in Sources */,
+				AC4AAEDC2AEBC539005DE1F7 /* FirebaseOTPAuthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AAEE42AEBC53B005DE1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AAEED2AEBC53B005DE1F7 /* FirebaseOTPAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC4AAEEE2AEBC53B005DE1F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC4AAEF72AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift in Sources */,
+				AC4AAEF92AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC4AAEEA2AEBC53B005DE1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4AAED72AEBC539005DE1F7 /* FirebaseOTPAuth */;
+			targetProxy = AC4AAEE92AEBC53B005DE1F7 /* PBXContainerItemProxy */;
+		};
+		AC4AAEF42AEBC53B005DE1F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC4AAED72AEBC539005DE1F7 /* FirebaseOTPAuth */;
+			targetProxy = AC4AAEF32AEBC53B005DE1F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AC4AAEFA2AEBC53B005DE1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC4AAEFB2AEBC53B005DE1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC4AAEFD2AEBC53B005DE1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseOTPAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirebaseOTPAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC4AAEFE2AEBC53B005DE1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseOTPAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirebaseOTPAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC4AAF002AEBC53B005DE1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirebaseOTPAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseOTPAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebaseOTPAuth";
+			};
+			name = Debug;
+		};
+		AC4AAF012AEBC53B005DE1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirebaseOTPAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FirebaseOTPAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FirebaseOTPAuth";
+			};
+			name = Release;
+		};
+		AC4AAF032AEBC53B005DE1F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirebaseOTPAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseOTPAuth;
+			};
+			name = Debug;
+		};
+		AC4AAF042AEBC53B005DE1F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JBcodeapp.FirebaseOTPAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FirebaseOTPAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC4AAED32AEBC539005DE1F7 /* Build configuration list for PBXProject "FirebaseOTPAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AAEFA2AEBC53B005DE1F7 /* Debug */,
+				AC4AAEFB2AEBC53B005DE1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4AAEFC2AEBC53B005DE1F7 /* Build configuration list for PBXNativeTarget "FirebaseOTPAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AAEFD2AEBC53B005DE1F7 /* Debug */,
+				AC4AAEFE2AEBC53B005DE1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4AAEFF2AEBC53B005DE1F7 /* Build configuration list for PBXNativeTarget "FirebaseOTPAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AAF002AEBC53B005DE1F7 /* Debug */,
+				AC4AAF012AEBC53B005DE1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC4AAF022AEBC53B005DE1F7 /* Build configuration list for PBXNativeTarget "FirebaseOTPAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC4AAF032AEBC53B005DE1F7 /* Debug */,
+				AC4AAF042AEBC53B005DE1F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC4AAED02AEBC539005DE1F7 /* Project object */;
+}
