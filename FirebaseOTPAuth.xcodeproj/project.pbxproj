@@ -14,6 +14,9 @@
 		AC4AAEED2AEBC53B005DE1F7 /* FirebaseOTPAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEEC2AEBC53B005DE1F7 /* FirebaseOTPAuthTests.swift */; };
 		AC4AAEF72AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEF62AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift */; };
 		AC4AAEF92AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAEF82AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift */; };
+		AC4AAF072AEBC5AF005DE1F7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAF062AEBC5AF005DE1F7 /* ViewModel.swift */; };
+		AC4AAF092AEBC624005DE1F7 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAF082AEBC624005DE1F7 /* LoginView.swift */; };
+		AC4AAF0B2AEBC86D005DE1F7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AAF0A2AEBC86D005DE1F7 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		AC4AAEF22AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirebaseOTPAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4AAEF62AEBC53B005DE1F7 /* FirebaseOTPAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOTPAuthUITests.swift; sourceTree = "<group>"; };
 		AC4AAEF82AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseOTPAuthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC4AAF062AEBC5AF005DE1F7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		AC4AAF082AEBC624005DE1F7 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AC4AAF0A2AEBC86D005DE1F7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		AC4AAEDA2AEBC539005DE1F7 /* FirebaseOTPAuth */ = {
 			isa = PBXGroup;
 			children = (
+				AC4AAF052AEBC591005DE1F7 /* ViewModel */,
 				AC4AAEDB2AEBC539005DE1F7 /* FirebaseOTPAuthApp.swift */,
 				AC4AAEDD2AEBC539005DE1F7 /* ContentView.swift */,
 				AC4AAEDF2AEBC53B005DE1F7 /* Assets.xcassets */,
 				AC4AAEE12AEBC53B005DE1F7 /* Preview Content */,
+				AC4AAF082AEBC624005DE1F7 /* LoginView.swift */,
 			);
 			path = FirebaseOTPAuth;
 			sourceTree = "<group>";
@@ -125,6 +133,15 @@
 				AC4AAEF82AEBC53B005DE1F7 /* FirebaseOTPAuthUITestsLaunchTests.swift */,
 			);
 			path = FirebaseOTPAuthUITests;
+			sourceTree = "<group>";
+		};
+		AC4AAF052AEBC591005DE1F7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AAF062AEBC5AF005DE1F7 /* ViewModel.swift */,
+				AC4AAF0A2AEBC86D005DE1F7 /* Model.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +274,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4AAF0B2AEBC86D005DE1F7 /* Model.swift in Sources */,
 				AC4AAEDE2AEBC539005DE1F7 /* ContentView.swift in Sources */,
+				AC4AAF072AEBC5AF005DE1F7 /* ViewModel.swift in Sources */,
+				AC4AAF092AEBC624005DE1F7 /* LoginView.swift in Sources */,
 				AC4AAEDC2AEBC539005DE1F7 /* FirebaseOTPAuthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
