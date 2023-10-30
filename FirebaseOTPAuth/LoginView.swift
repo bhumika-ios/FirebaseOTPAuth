@@ -37,7 +37,7 @@ struct LoginView: View {
                         .background(.yellow)
                         .cornerRadius(5)
                 })
-                
+                .disabled(viewModel.phNo == "" ? true : false)
                 GeometryReader{reader in
                     VStack{
                         LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 20), count: 3),spacing: 15) {
