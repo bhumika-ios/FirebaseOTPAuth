@@ -29,14 +29,14 @@ struct LoginView: View {
                     Spacer(minLength: 0)
                     
                 }
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                NavigationLink(destination: Verifiaction(viewModel: viewModel)){
                     Text("Continue")
                         .foregroundStyle(.black)
                         .padding(.vertical,10)
                         .padding(.horizontal,20)
                         .background(.yellow)
                         .cornerRadius(5)
-                })
+                }
                 .disabled(viewModel.phNo == "" ? true : false)
                 GeometryReader{reader in
                     VStack{

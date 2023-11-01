@@ -37,6 +37,8 @@ struct Verifiaction: View {
             Spacer()
         }
         .background(Color.gray.ignoresSafeArea(.all, edges: .bottom))
+        .navigationBarHidden(true)
+        .navigationBarBackButtonHidden(true)
     }
 }
 
