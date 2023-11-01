@@ -8,11 +8,38 @@
 import SwiftUI
 
 struct Verifiaction: View {
+    @ObservedObject var viewModel : ViewModel
+    @Environment(\.presentationMode) var present
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            VStack{
+                HStack{
+                    Button(action:{present.wrappedValue.dismiss()}){
+                        Image(systemName: "arrow.left")
+                            .font(.title2)
+                            .foregroundStyle(.black)
+                    }
+                    Spacer()
+                    
+                    Text("Verify Phone")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .foregroundStyle(.black)
+                    
+                    Spacer()
+                }
+                .padding()
+            }
+            .frame(height: UIScreen.main.bounds.height / 1.8)
+            .background(Color.white)
+            .cornerRadius(20)
+            
+            Spacer()
+        }
+        .background(Color.gray.ignoresSafeArea(.all, edges: .bottom))
     }
 }
 
-#Preview {
-    Verifiaction()
-}
+//#Preview {
+//    Verifiaction()
+//}
